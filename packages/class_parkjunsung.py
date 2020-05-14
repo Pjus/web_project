@@ -26,8 +26,7 @@ class predict3():
 
 class predict4():
     def __init__(self, x1 = None, x2 = None):
-        self.x1 = x1
-        self.x2 = x2
+        pass
     def getPredict(self, x1, x2):
         self.x1 = x1
         self.x2 = x2
@@ -35,4 +34,4 @@ class predict4():
             self.y = self.x1 * 0 + self.x2 * 3
         else:
             self.y = self.x1 * 0.25 + self.x2 * 2.75
-        print('Predict Result :', self.y)
+        return self.y
