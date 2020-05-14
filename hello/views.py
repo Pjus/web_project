@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpReaponse
+import django.HttpReaponse
 # Create your views here.
 
 def home(request):
-    return HttpReaponse('Hellom Django!')
+    return HttpReaponse('Hello, Django!')
 
