@@ -11,6 +11,6 @@ def home(request):
 
     emp_pkl4 = pickle.load(open('./cla.pkl', 'rb'))
     result = emp_pkl4().getPredict(int(x1), int(x2))
-    requestDict = {'result':result}
+    requestDict = {'pre4':result}
     return JsonResponse(requestDict)
 
